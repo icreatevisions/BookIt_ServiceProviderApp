@@ -1,11 +1,11 @@
 package com.icreatevisions.bookit_serviceproviderapp.Activites;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 
 import com.icreatevisions.bookit_serviceproviderapp.R;
 
-public class Login extends AppCompatActivity {
+public class Login extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
