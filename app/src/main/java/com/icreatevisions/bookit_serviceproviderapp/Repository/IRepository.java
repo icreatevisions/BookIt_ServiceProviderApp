@@ -8,4 +8,6 @@ public interface IRepository <T, K> {
     Observable create(T entity);
     Observable update(T entity);
     Observable delete(T entity);
+
+    void destroy();
 }
